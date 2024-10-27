@@ -198,7 +198,7 @@ footer {
         top: auto;
         left: auto;
         transform: none;
-        background-color: gray;
+        background-color: rgb(75, 74, 74);
         margin: 40px 20px; 
         padding: 30px;
     }
