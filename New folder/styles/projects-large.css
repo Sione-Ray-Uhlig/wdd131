@@ -57,10 +57,13 @@ main h2 {
 
 figure {
     width: 30%;
+    max-width: 500px;
+    height: auto;
     margin: 0;
     text-align: center;
     overflow: hidden;
 }
+
 
 
 img {
