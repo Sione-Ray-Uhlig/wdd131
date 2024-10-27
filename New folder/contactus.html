@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sione's Precision Woodcraft</title>
+    <meta name="description" content="Sione's Precision Woodcraft is dedicated to providing high-quality, handcrafted wooden products. Our mission is to combine artistry with precision, creating unique woodwork that enhances any space while showcasing the natural beauty of wood.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script src="script/getdates.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/woodworking.jpg" alt="Sione's Precision Woodcraft logo">
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="navigation">
+                <a href="index.html"> Home </a>
+                <a href="projects.html"> Projects </a>
+                <a href="contactus.html"> Contact Us </a>
+            </nav>
+        </header>
+
+        <main class="contact-main">
+            <img src="images/hero-Large.jpg" alt="Contact Us" class="contact-image"> 
+            <form method="get" action="review.html" class="wf1"> 
+                <h1 id="product-h1">Contact Us</h1>
+                <fieldset>
+                    <div class="title"> Your Name <label class="optional"></label></div>
+                    <label for="user-name">
+                        <input id="user-name" type="text" name="user-name" required>
+                    </label><br>
+
+                    <div class="email"> Email <label class="optional"></label></div>
+                    <label for="user-email">
+                        <input id="user-email" type="email" name="user-email" required>
+                    </label><br>
+
+                    <div class="Number"> Phone Number <label class="optional">(Optional)</label></div>
+                    <label for="user-phone">
+                        <input id="user-phone" type="number" name="user-phone">
+                    </label><br>
+
+                    <div class="comment">Comment <label class="required"></label></div>
+                    <label for="written_comment">
+                        <textarea id="written_comment" name="Product" rows="9" required></textarea>
+                    </label>
+    
+                    <input id="submit" type="submit" value="Send Message">
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <p>© <span id="yearjs"></span> 🌮 Sione Uhlig 🌮 United States of America </p>
+            <p id="lastModified"> Last Modification: 
+            </p>
+        </footer>
+    </div>  
+</body>
